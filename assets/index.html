@@ -1,4 +1,5 @@
 <!-- The basic structure of html taken from structure learnt in Prework Study Guide -->
+<!-- Changed basic structure of html using https://www.w3schools.com/html/html_layout.asp as suggested by in ASKABCs chat -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,39 +13,43 @@
   </head>
   <body>
 <!-- The first div fot the website name has to have <element class="header"> to match css styles -->
-    <div class="header">
+<section class="header">
+    <header>
 <!-- The font colour for the "seo" in Horiseon is different. On styles.css it is targetted in '.header h1 .seo' so I need to target the .seo class selector -->
 <!-- https://www.w3schools.com/tags/tag_span.asp - used to find how to separate the website title -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-    </div>
+    </header>
 <!-- Add second div for the menu bar. Create unordered list to form menu bar -->
 <!-- https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37389818?start=39#overview - Format taken what I learnt from CSS lecture -->
 <!-- https://www.w3schools.com/tags/tag_a.asp - Create hyperlink with # to another section on the same page-->
 <!-- Add class selectors to match styles.css -->
-    <div class="header">
-        <ul class="ul">
-            <li class="li">
-                <a href="#search-engine-optimization">Search Engine Optimization</a>
-            </li>
-            <li class="li">
-                <a href="#online-reputation-management">Online Reputation Management</a>
-            </li>
-            <li class="li">
-                <a href="#social-media-marketing">Social Media Marketing</a>
-            </li>
-        </ul>
-    </div>
+    <nav class="header"> 
+        <div class="div">
+            <ul class="ul">
+                <li class="li">
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li class="li">
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li class="li">
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
 <!-- Insert Image Here -->
 <!-- Add third div as on styles.css the .hero class contains background image <element class="hero"> -->
-    <div class="hero"></div>
+<div class="hero"></div> 
 <!-- Add third div as on styles.css the .content class contains the main bulk of web content <element class="content"> -->
-    <div class="content">
+    <section class="content">
 <!-- Add 3 divs for the 3 section. Create a header (not a title - use h2 (to match styles.css)). Add text. Add class to div to match styles.css. Each image floats a different way - use styles.css class selectors to float-left or float-right -->
 <!-- Copied images from file provided and linked to assets-->        
         <div class="search-engine-optimization">
-            <h2 class="float-right">Search Engine Optimization</h2>
-            <p class="float-right">The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
-            <img src="./images/search-engine-optimization.jpg" class="">
+                <h2 class="float-right">Search Engine Optimization</h2>
+                <p class="float-right"> The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
+                <img src="./images/search-engine-optimization.jpg" class="float-left">
         </div>
         <div class="online-reputation-management">
             <h2 class="float-left">Online Reputation Management</h2>
@@ -56,31 +61,31 @@
             <p class="float-right">Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
             <img src="./images/social-media-marketing.jpg" class="float-left">
         </div>
-    </div>    
+    </section>   
 <!-- Add seventh div as on styles.css the .content class contains a section of web content <element class="benefits"> -->
-    <div class="benefits">
+    <section class="benefits">
 <!-- Add 3 divs for the section. Create a header (not a title - use h3 (to match styles.css)). Add text. Add class to div to match styles.css. -->
-        <div class="benefit-lead">
+        <article class="benefit-lead">
             <h3>Lead Generation</h3>
-            <img src="./images/lead-generation.png">
             <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
-        </div>
-        <div class="benefit-brand">
+            <img src="./images/lead-generation.png">
+        </article>
+        <article class="benefit-brand">
             <h3>Brand Awareness</h3>
-            <img src="./images/brand-awareness.png">
             <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
-        </div>
-        <div class="benefit-cost">
+            <img src="./images/brand-awareness.png">
+        </article>
+        <article class="benefit-cost">
             <h3>Cost Management</h3>
-            <img src="./images/cost-management.png">
             <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
-        </div>
-    </div>
+            <img src="./images/cost-management.png">
+        </article>
+    </section>
 
-<!-- -->
-    <div class="footer">
+<!-- Add footer to the end of the code; taken from file provided -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>© 2019 Horiseon Social Solution Services, Inc.</p>
-    </div>
+    </footer>
   </body>
 </html>
