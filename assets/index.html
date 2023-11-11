@@ -1,3 +1,4 @@
+<!-- The basic structure of html taken from structure learnt in Prework Study Guide -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,14 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
+    <title>Challenge Module 1</title>
+<!-- The title is based on current module 1 challenge assignment -->
   </head>
   <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-    </header>
+<!-- The first div fot the website name has to have <element class="header"> to match css styles -->
+    <div class="header">
+<!-- The font colour for the "seo" in Horiseon is different. On styles.css it is targetted in '.header h1 .seo' so I need to target the .seo class selector -->
+<!-- https://www.w3schools.com/tags/tag_span.asp - used to find how to separate the website title -->
+        <h1>Hori<span class="seo">seo</span>n</h1>
+    </div>
+<!-- Add second div for the menu bar. Create unordered list to form menu bar -->
+<!-- https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37389818?start=39#overview - Format taken what I learnt from CSS lecture -->
+<!-- https://www.w3schools.com/tags/tag_a.asp - Create hyperlink with # to another section on the same page-->
+    <div>
+        <ul>
+            <li>
+                <a href="#search-engine-optimization">Search Engine Optimization</a>
+            </li>
+            <li>
+                <a href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+        </ul>
+    </div>
+
+   
+
+
+
     <main>
 
       <section class="card" id="html-section">
