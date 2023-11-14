@@ -20,7 +20,7 @@ I encountered some challenges on the way including:
 
 Link to the deployed application here:
 
-
+https://desireanunobi.github.io/da-repepository-1/
 
 http://127.0.0.1:5500/assets/index.html 
 
