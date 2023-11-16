@@ -2,13 +2,13 @@
 
 ## Description 
 
-This Module 1 Challenge was created for the Front-End Web Developer boot camp students. The website was built to teach and reinforce the basics of HTML, CSS, and Git. A marketing agency has hired us to refactor an existing site to make it more accessible. I began with starter code that needed to be modified to make it accessible for all. We used the Console to inspect and debug code. 
+This Module 1 Challenge was created for the Front-End Web Developer boot camp students. The website was built to teach and reinforce the basics of HTML, CSS, and Git. A marketing agency has hired us to refactor an existing site to make it more accessible. I began with starter code that needed to be modified to make it accessible for all. We used the console to inspect and debug code. 
 
 What I learnt?
 - I learnt more about how to effectively use Git Hub and Git Bash.
 - I learnt that commit messages are meant to be specific to improvement/changes made in code.
 - I learnt that the order of html element in the code editior can effect positioning of elements.
-- I learnt that images need alt attribute for accessiblity purposes
+- I learnt that images need alt attribute for accessiblity purposes.
 
 What makes your project stand out? 
 - I added a footer to match original website (although it was not included in example screenshot.)
